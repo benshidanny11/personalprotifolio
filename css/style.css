@@ -1,0 +1,208 @@
+body {
+    font-family: Helvetica;
+    font-size: 1rem;
+    background-color: #be3144;
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+
+#navbar{
+     background-color: brown;
+     background-color:#be3144;
+     position: fixed;
+     left: 0;
+     top: 0;
+@@ -18,8 +20,13 @@
+     z-index: 1;
+}
+
+#navbar .navbar-link-container ul li {
+     display: inline-block;
+}
+.navbar-link-container ul {
+     margin: 0;
+}
+#navbar .navbar-link-container ul li {    
+    display: inline-block; 
+    margin-right: 2.3rem;
+    list-style: none;
+}
+@@ -32,34 +39,167 @@
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row.center {
+    justify-content: center;
+}
+
+.cold-1 {
+    flex: 1 1 12rem;
+
+}
+
+.cold-2 {
+    flex: 4 1 48rem;
+
+}
+
+
+/* welcome section */
+#welcome-section {
+    margin-top: 4.5rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: cornsilk;
+    background-color: #000;
+    background-color: #262729;
+}
+#welcome-section h1 {
+    font-size: 3.8rem;
+    color: #fff;
+}
+
+#welcome-section  p {
+    margin-top: -2.5rem;
+    font-size: 1.9rem;
+    font-style: italic;
+    color:#be3144;
+}
+
+
+@media (max-width: 576px){
+    body {
+       background-color: burlywood;
+  }
+}
+/* projects */
+#projects {
+    text-align: center;
+    background-color: #44567c;
+    color: #fff;
+    padding: 4.7rem 0;
+}
+
+#projects h1 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    border-bottom: 2px solid #fff;
+
+}
+
+.project-tile {    
+    background-color: #303942;
+    border-radius: 0 0 3px 3px;
+    box-shadow: 0.5px 0.5px 0.5px #303942;
+    margin: 1.2rem;
+}
+
+.row.tile-container {
+   margin: 2.6rem 0;
+}
+
+.project-tile h2 {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+
+.project-tile h2 a {
+    text-decoration: none;
+    color: #fff;
+}
+#projects img {
+    max-width: 25rem;
+    width: 100%;
+    height: 25rem;
+}
+
+#projects button {
+    background-color: #303942;
+    color: #fff;
+    padding: 0.7rem 1.3rem;
+    font-size: 1.28rem;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#projects button:hover {
+    background-color: #be3144;
+}
+
+
+/* contact */
+#contact {
+    margin: 0;
+    padding: 7rem 0;
+    background-color: #303942;
+    color: #fff;
+    text-align: center;
+}
+
+#contact h1 {
+    margin-top: 0;
+    font-size: 3.9rem;
+}
+#contact p {
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-top: -2.7rem;
+}
+
+.social-links {
+   margin-top: 2.8rem;
+}
+
+.social-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.social-links ul li {
+    margin: 0 1.3rem;  
+}
+
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.social-links a i {
+    font-size: 1.6rem;
+    margin-right: 0.3rem;
+}
+
+/* footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 4rem;
+    font-size: 1rem;
+    margin-top: 0.2rem;
+    background-color: #303942;
+    color: #fff;
+}
+
+
+
+
+
+
